@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* heroku.api-practice-5
+web: java $JAVA_OPTS -cp build/libs/*.jar apipractice5.ApiPractice5Application
