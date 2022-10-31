@@ -1,9 +1,9 @@
-package ru.rtu_mirea.api_practice_5.controller;
+package com.example.apipractice5.controller;
 
+import com.example.apipractice5.entity.Contact;
+import com.example.apipractice5.repository.ContactRepo;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.rtu_mirea.api_practice_5.entity.Contact;
-import ru.rtu_mirea.api_practice_5.repository.ContactRepo;
 
 import java.util.List;
 

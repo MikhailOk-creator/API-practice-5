@@ -1,4 +1,4 @@
-package ru.rtu_mirea.api_practice_5.config;
+package com.example.apipractice5.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.server.ConfigurableWebServerFactory;
