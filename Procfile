@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp build/libs/*.jar com.example.apipractice5.ApiPractice5Application
+web: java $JAVA_OPTS -cp build/libs/*.jar ru.rtu_mirea.apipractice5.ApiPractice5Application

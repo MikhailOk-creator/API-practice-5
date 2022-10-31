@@ -1,4 +1,4 @@
-package com.example.apipractice5.entity;
+package ru.rtu_mirea.apipractice5.entity;
 
 import lombok.Getter;
 import lombok.Setter;

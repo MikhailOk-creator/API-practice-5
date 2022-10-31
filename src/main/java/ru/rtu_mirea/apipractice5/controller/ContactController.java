@@ -1,7 +1,7 @@
-package com.example.apipractice5.controller;
+package ru.rtu_mirea.apipractice5.controller;
 
-import com.example.apipractice5.entity.Contact;
-import com.example.apipractice5.repository.ContactRepo;
+import ru.rtu_mirea.apipractice5.entity.Contact;
+import ru.rtu_mirea.apipractice5.repository.ContactRepo;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

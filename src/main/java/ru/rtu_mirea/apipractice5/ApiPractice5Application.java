@@ -1,4 +1,4 @@
-package com.example.apipractice5;
+package ru.rtu_mirea.apipractice5;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
