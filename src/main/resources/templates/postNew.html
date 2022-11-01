@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -7,9 +7,6 @@
 </head>
 <body>
   <form action="" id="form">
-    <label for="id">ID</label><br>
-    <input type="number" min="0" name="id" id="id"><br>
-
     <label for="username">Имя пользователя</label><br>
     <input type="text" name="username" id="username"><br>
 
@@ -17,13 +14,13 @@
     <input type="email" name="email" id="email"><br>
 
     <label for="phone">Мобильный телефон</label><br>
-    <input type="tel" name="mobile" id="phone"><br>
+    <input type="tel" name="phone" id="phone"><br>
 
     <label for="homePhone">Домашний телефон</label><br>
     <input type="tel" name="home" id="homePhone"><br>
 
-    <input type="button" value="Обновить контакт" onclick="send_request()">
+    <input type="button" value="Создать контакт" onclick="send_request()">
   </form>
 </body>
-<script src="js/putById.js"></script>
+<script th:src="@{/js/postNew.js}"></script>
 </html>
